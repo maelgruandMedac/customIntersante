@@ -29,4 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+    const subs = document.getElementById("subs")
+    subs.addEventListener("click", hideBtn)
+    function hideBtn(){
+        alert("You are subscribed");
+        subs.style.display = "none";
+    }
 });
