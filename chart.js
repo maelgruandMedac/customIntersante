@@ -5,7 +5,7 @@ const cryptoChart = new Chart(ctx, {
             labels: ['Bitcoin', 'Ethereum', 'Ripple', 'Litecoin', 'Cardano'],
             datasets: [{
                         label: 'Precio en USD',
-                        data: [43000, 3000, 1.2, 150, 0.35],
+                        data: [105000, 3000, 1.2, 150, 0.35],
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',
                             'rgba(54, 162, 235, 0.2)',
